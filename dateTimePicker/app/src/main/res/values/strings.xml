@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">dateTimePicker</string>
+    <string-array name="tech">
+        <item>java</item>
+        <item>c</item>
+        <item>c++</item>
+        <item>python</item>
+        <item>android</item>
+        <item>react</item>
+    </string-array>
+</resources>

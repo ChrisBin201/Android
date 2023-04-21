@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/money"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++"
+        android:layout_toRightOf="@id/img"
+
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++ Base"
+        android:layout_toRightOf="@+id/img"
+        android:layout_below="@+id/name"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desc C++"
+        android:layout_toRightOf="@+id/img"
+        android:layout_below="@+id/sub"
+        android:textSize="25dp"
+        />
+
+</RelativeLayout>
+

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">List View</string>
+    <string-array name="algorithm">
+        <item>Lê Tuấn Minh</item>
+        <item>Hoàng Công Tú</item>
+        <item>Vũ Quốc Bảo</item>
+        <item>Nguyễn Xuân Quý</item>
+    </string-array>
+</resources>

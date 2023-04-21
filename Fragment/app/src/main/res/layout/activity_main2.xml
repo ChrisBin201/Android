@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/ln1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+        <Button
+            android:id="@+id/addA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addA"
+            android:text="ADD A"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt" />
+        <Button
+            android:id="@+id/addB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addB"
+            android:layout_marginLeft="10dp"
+            android:text="ADD B"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt" />
+        <Button
+            android:id="@+id/addC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addC"
+            android:layout_marginLeft="10dp"
+            android:text="ADD C"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt" />
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="back"
+            android:layout_marginLeft="10dp"
+            android:text="BACK"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ln1"
+        >
+        <Button
+            android:id="@+id/delA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="delA"
+            android:text="DEL A"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt" />
+        <Button
+            android:id="@+id/delB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="delB"
+            android:layout_marginLeft="10dp"
+            android:text="DEL B"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt" />
+        <Button
+            android:id="@+id/delC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="delC"
+            android:layout_marginLeft="10dp"
+            android:text="DEL C"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt" />
+        <Button
+            android:id="@+id/popA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="popA"
+            android:layout_marginLeft="10dp"
+            android:text="POP A"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintTop_toBottomOf="@id/ln2"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

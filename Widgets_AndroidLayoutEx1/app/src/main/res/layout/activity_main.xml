@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_background"
+        />
+    <TextView
+        android:text="Select the platform you like:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        />
+    <LinearLayout
+        android:id="@+id/group_pl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/pl_ip"-->
+<!--        android:text="IPhone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+<!--    <CheckBox-->
+<!--        android:id="@+id/pl_android"-->
+<!--        android:text="Android"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+<!--    <CheckBox-->
+<!--        android:id="@+id/pl_win"-->
+<!--        android:text="Window Mobile"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+    </LinearLayout>
+    <TextView
+        android:text="Gender:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        />
+    <RadioGroup
+        android:id="@+id/group_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+    </RadioGroup>
+    <TextView
+        android:text="Rate your girl/guy in love with you:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        />
+    <RatingBar
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Your country:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        />
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:text="Your university:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        />
+    <EditText
+        android:id="@+id/university"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:text="Your favourite:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        />
+    <LinearLayout
+        android:id="@+id/group_fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        />
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/fav_tennis"-->
+<!--        android:text="Tennis"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+<!--    <CheckBox-->
+<!--        android:id="@+id/fav_run"-->
+<!--        android:text="Running"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+<!--    <CheckBox-->
+<!--        android:id="@+id/fav_swim"-->
+<!--        android:text="Swimming"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+<!--    <CheckBox-->
+<!--        android:id="@+id/fav_sleep"-->
+<!--        android:text="Sleeping"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+<!--    <CheckBox-->
+<!--        android:id="@+id/fav_read"-->
+<!--        android:text="Reading"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        />
+    <TextView
+        android:id="@+id/sub_pl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/sub_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/sub_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/sub_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/sub_uni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/sub_fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+</LinearLayout>
+</ScrollView>

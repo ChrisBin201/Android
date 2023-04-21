@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text">HELLO WORLD</string>
+    <string-array name="list_pro">
+        <item>C++</item>
+        <item>JavaScript</item>
+        <item>Java</item>
+        <item>Golang</item>
+    </string-array>
+</resources>
